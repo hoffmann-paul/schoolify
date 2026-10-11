@@ -28,6 +28,7 @@ struct StartVocabularyQueue: View {
     @State private var buttonsCanTapped = false
     
     @State private var showEndTrainingAlarm = false
+    @State private var showNoVocabularyAlarm = false
 
 //MARK: - body
     
@@ -152,6 +153,13 @@ struct StartVocabularyQueue: View {
             } message: {
                 Text("Weniger als 5 Vokablen mehr üprig du hast von \(correct) Vokabeln, bei \(wrong) Vokabeln Fehler gemacht, das ist eine Fehlerquote von \(procent)%")
             }
+            .alert("Nicht genug Vokabeln", isPresented: $showNoVocabularyAlarm) {
+                Button("Ok", role: .cancel) {
+                    dismiss()
+                }
+            } message: {
+                Text("Du hast nicht genug Vokabeln zum Starten. Füge mehr Vokablen hinzu.")
+            }
             
             Spacer()
         }
@@ -207,6 +215,11 @@ struct StartVocabularyQueue: View {
         wrong = 0
         
         loadVocabulary()
+        
+        if vocabulary.count < 6 {
+            showNoVocabularyAlarm = true
+            return
+        }
         
         possibleVocabulary = vocabulary
         
