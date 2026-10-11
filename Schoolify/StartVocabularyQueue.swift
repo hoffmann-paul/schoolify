@@ -18,6 +18,7 @@ struct StartVocabularyQueue: View {
     
     @State private var correct = 0
     @State private var wrong = 0
+    @State private var procent = 0
     @State private var displayedGerman = ""
     @State private var displayedOtherLang = ""
     
@@ -149,7 +150,7 @@ struct StartVocabularyQueue: View {
                     dismiss()
                 }
             } message: {
-                Text("Weniger als 5 Vokablen mehr üprig du hast von \(correct) Vokabeln, bei \(wrong) Vokabeln Fehler gemacht")
+                Text("Weniger als 5 Vokablen mehr üprig du hast von \(correct) Vokabeln, bei \(wrong) Vokabeln Fehler gemacht, das ist eine Fehlerquote von \(procent)%")
             }
             
             Spacer()
@@ -219,6 +220,7 @@ struct StartVocabularyQueue: View {
             queue.append(addedVoc)
             possibleVocabulary.removeAll { $0 == addedVoc }
             if possibleVocabulary.count == 0 {
+                calculateProcent()
                 showEndTrainingAlarm = true
                 return
             }
@@ -234,6 +236,10 @@ struct StartVocabularyQueue: View {
         displayedOtherLang = queue[0].otherLang
         
         blurOtherLang = true
+    }
+    
+    func calculateProcent() {
+        procent = (wrong / correct * 100)
     }
 }
 
