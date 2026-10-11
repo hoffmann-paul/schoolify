@@ -1,0 +1,265 @@
+{
+  "sourceLanguage" : "de",
+  "strings" : {
+    "" : {
+
+    },
+    "%@ lernen" : {
+
+    },
+    "%lld" : {
+
+    },
+    "%lld Tage" : {
+
+    },
+    "⭐ %lld/5 " : {
+
+    },
+    "🎓 %lld/5" : {
+
+    },
+    "Abbrechen" : {
+
+    },
+    "Alle löschen" : {
+
+    },
+    "Alles Löschen" : {
+
+    },
+    "Aufdecken" : {
+
+    },
+    "Beide Felder müssen ausgefüllt sein, damit du eine neue Vokabel hinzufügen kannst." : {
+
+    },
+    "Bewerten" : {
+
+    },
+    "Chemie" : {
+
+    },
+    "data.txt" : {
+
+    },
+    "Daten exportieren" : {
+
+    },
+    "Deutsch" : {
+
+    },
+    "Du hast nicht genug Vokabeln zum Starten. Füge mehr Vokablen hinzu." : {
+
+    },
+    "Durchgang starten" : {
+
+    },
+    "Einstellungen" : {
+
+    },
+    "Eintrag löschen?" : {
+
+    },
+    "Eintrag wurde erstellt" : {
+
+    },
+    "Englisch" : {
+
+    },
+    "Fächer" : {
+
+    },
+    "Felder ausfüllen!" : {
+
+    },
+    "Französisch" : {
+
+    },
+    "Gelernt" : {
+
+    },
+    "Gemeinschaftskunde" : {
+
+    },
+    "Geschichte" : {
+
+    },
+    "Gestaltung:" : {
+
+    },
+    "Gewusst" : {
+
+    },
+    "Gut" : {
+
+    },
+    "Hausaufgabe löschen?" : {
+
+    },
+    "Hausaufgaben" : {
+
+    },
+    "Inhalt:" : {
+
+    },
+    "Lernen" : {
+
+    },
+    "Lernmenge" : {
+
+    },
+    "Lernplan erstellen" : {
+
+    },
+    "Lernplan Löschen" : {
+
+    },
+    "Lernplan löschen?" : {
+
+    },
+    "Lernplan wurde erstellt" : {
+
+    },
+    "Lernstand" : {
+
+    },
+    "Lernstand aktualisieren" : {
+
+    },
+    "Löschen" : {
+
+    },
+    "Mathe" : {
+
+    },
+    "Menge" : {
+
+    },
+    "Mittel" : {
+
+    },
+    "Möchtest du diese Hausaufgabe wirklich löschen?" : {
+
+    },
+    "Möchtest du diesen Eintrag wirklich löschen?" : {
+
+    },
+    "Möchtest du diesen Lernplan wirklich löschen?" : {
+
+    },
+    "Möchtest du wirklich Alle Vokabeln löschen?" : {
+
+    },
+    "Musik" : {
+
+    },
+    "Name" : {
+
+    },
+    "Neuer Eintrag" : {
+
+    },
+    "Neuer Lernplan" : {
+
+    },
+    "Neues Thema" : {
+
+    },
+    "Nicht gelernt" : {
+
+    },
+    "Nicht genug Vokabeln" : {
+
+    },
+    "Nicht Gewusst" : {
+
+    },
+    "Nwt" : {
+
+    },
+    "Ok" : {
+
+    },
+    "Physik" : {
+
+    },
+    "Religion" : {
+
+    },
+    "Schlecht" : {
+
+    },
+    "Sport" : {
+
+    },
+    "Standard Tab" : {
+
+    },
+    "Tage üprig:" : {
+
+    },
+    "Tage zum lernen" : {
+
+    },
+    "Tagebuch" : {
+
+    },
+    "Thema" : {
+
+    },
+    "Thema hinzufügen" : {
+
+    },
+    "Thema wurde erstellt" : {
+
+    },
+    "Themen" : {
+
+    },
+    "Themen:" : {
+
+    },
+    "Übersetzung" : {
+
+    },
+    "Viel" : {
+
+    },
+    "Vokabeln" : {
+
+    },
+    "Vokabeln bearbeiten" : {
+
+    },
+    "Vokabeln Bearbeiten" : {
+
+    },
+    "Vokabeln hinzufügen" : {
+
+    },
+    "Vokabeln zu ende" : {
+
+    },
+    "Wenig" : {
+
+    },
+    "Weniger als 5 Vokablen mehr üprig du hast von %lld Vokabeln, bei %lld Vokabeln Fehler gemacht, das ist eine Fehlerquote von %lld%%" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Weniger als 5 Vokablen mehr üprig du hast von %1$lld Vokabeln, bei %2$lld Vokabeln Fehler gemacht, das ist eine Fehlerquote von %3$lld%%"
+          }
+        }
+      }
+    },
+    "Wie gut kannst du %@" : {
+
+    },
+    "Wirtschaft Beruf- und Studienorientierung" : {
+
+    }
+  },
+  "version" : "1.2"
+}
